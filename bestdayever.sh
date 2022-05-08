@@ -1,8 +1,12 @@
 #!/bin/bash
 
+# takes input during executing in command line
+# first input is name and second is thing
+# empty if not entered
 name=$1
 thing=$2
 
+# initializing the variables
 user=$(whoami)
 date=$(date)
 directory=$(pwd)
