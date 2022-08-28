@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 x=1
@@ -9,3 +8,4 @@ do
 	echo "Hey, I just did $x pushups."
 	(( x ++ ))
 done #end of loop
+
